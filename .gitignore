@@ -1,0 +1,78 @@
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.astro/
+.vite/
+.parcel-cache/
+.cache/
+
+# Runtime / temp
+tmp/
+temp/
+logs/
+*.log
+pids/
+*.pid
+*.pid.lock
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.envrc
+*.key
+*.pem
+
+# Databases / uploaded assets
+*.sqlite3
+*.db
+/uploads/
+
+# Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Python (if used)
+venv/
+ENV/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Java / other build tools
+target/
+*.class
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Misc
+*.swp
+*.bak
